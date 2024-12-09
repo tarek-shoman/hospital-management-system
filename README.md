@@ -36,6 +36,9 @@ git clone https://github.com/tarek-shoman/hospital-management-system.git
 3. عدّل ملف الإتصال بقاعدة البيانات
 4. ابدأ باستخدام النظام!
 
+## GitHub Pages
+يمكنك زيارة المشروع على GitHub Pages عبر الرابط التالي: [نظام إدارة المستشفى](https://tarek-shoman.github.io/hospital-management-system/docs/index.html)
+
 ## المساهمة في المشروع
 نرحب بمساهماتكم في تطوير النظام. يمكنكم:
 - الإبلاغ عن المشاكل
