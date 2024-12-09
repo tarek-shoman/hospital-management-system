@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام إدارة المستشفى</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #00b4db 0%, #0083b0 100%);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .tech-stack {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .tech-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        
+        .tech-item {
+            background: #f0f4f8;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255,255,255,0.9);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>نظام إدارة المستشفى</h1>
+            <p>حل متكامل لإدارة المستشفيات والمراكز الطبية</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>إدارة المرضى والموظفين</h3>
+                <p>نظام شامل لإدارة بيانات المرضى وطاقم العمل الطبي</p>
+            </div>
+            <div class="feature-card">
+                <h3>إدارة العلاجات</h3>
+                <p>متابعة العلاجات والفحوصات الطبية بكفاءة عالية</p>
+            </div>
+            <div class="feature-card">
+                <h3>التقارير والإحصائيات</h3>
+                <p>تقارير تفصيلية وإحصائيات دقيقة لدعم اتخاذ القرار</p>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <h2>التقنيات المستخدمة</h2>
+            <div class="tech-list">
+                <span class="tech-item">PHP</span>
+                <span class="tech-item">MySQL</span>
+                <span class="tech-item">JavaScript</span>
+                <span class="tech-item">jQuery</span>
+                <span class="tech-item">HTML5</span>
+                <span class="tech-item">CSS3</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="https://github.com/tarek-shoman/hospital-management-system" target="_blank">GitHub مستودع المشروع على</a>
+            </p>
+            <p> 2024 نظام إدارة المستشفى. جميع الحقوق محفوظة.</p>
+        </div>
+    </div>
+</body>
+</html>
